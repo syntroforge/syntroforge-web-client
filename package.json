@@ -1,0 +1,41 @@
+{
+  "name": "syntroforge-web-client",
+  "version": "0.0.1-dev",
+  "description": "Syntroforge OT device management web client",
+  "keywords": [
+    "device management",
+    "web client"
+  ],
+  "homepage": "https://syntroforge.io",
+  "bugs": {
+    "url": "https://github.com/syntroforge/syntroforge-web-client/issues"
+  },
+  "license": "Apache-2.0 OR MIT",
+  "author": {
+    "name": "Martin Dickopp",
+    "email": "martin@syntroforge.io"
+  },
+  "type": "module",
+  "browser": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syntroforge/syntroforge-web-client.git"
+  },
+  "scripts": {},
+  "engines": {
+    "node": ">=24"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": ">=24",
+      "onFail": "warn"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": ">=11",
+      "onFail": "warn"
+    }
+  },
+  "private": true
+}

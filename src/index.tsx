@@ -1,3 +1,4 @@
 import { render } from "solid-js/web";
+import { App } from "./app";
 
-render(() => <div />, document.getElementById("app")!);
+render(() => <App />, document.getElementById("app")!);

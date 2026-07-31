@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
-import minifyIndexHtmlPlugin from "./build/vite-plugin-minify-index-html";
+import minifyIndexHtmlPlugin from "./build/vite-plugin-minify-index-html.ts";
 
 export default defineConfig({
   build: {

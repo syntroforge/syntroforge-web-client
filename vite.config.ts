@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
+import minifyIndexHtmlPlugin from "./build/vite-plugin-minify-index-html";
 
 export default defineConfig({
   build: {
@@ -7,6 +8,6 @@ export default defineConfig({
     reportCompressedSize: false,
   },
   clearScreen: false,
-  plugins: [solidPlugin()],
+  plugins: [solidPlugin(), minifyIndexHtmlPlugin()],
   resolve: { tsconfigPaths: true },
 });

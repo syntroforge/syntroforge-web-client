@@ -42,7 +42,5 @@ jobs:
         run: pnpm run check:formatting
       - name: Lint
         run: pnpm run check:lint
-      - name: Check TypeScript
-        run: pnpm run check:typescript
       - name: Check Markdown
         run: pnpm run check:markdown

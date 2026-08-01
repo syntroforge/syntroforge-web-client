@@ -39,8 +39,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
       - name: Check formatting
-        run: pnpm run lint:formatting
+        run: pnpm run check:formatting
+      - name: Lint
+        run: pnpm run check:lint
       - name: Check TypeScript
-        run: pnpm run lint:typescript
+        run: pnpm run check:typescript
       - name: Check Markdown
-        run: pnpm run lint:markdown
+        run: pnpm run check:markdown

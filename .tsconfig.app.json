@@ -10,5 +10,6 @@
     "tsBuildInfoFile": "node_modules/.tsbuildinfo.app.json",
     "types": ["vite/client"]
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"]
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["src/**/*.css.ts"]
 }

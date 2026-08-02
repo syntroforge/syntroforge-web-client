@@ -9,6 +9,7 @@ export default defineConfig({
   overrides: [
     {
       files: ["src/**"],
+      excludeFiles: ["src/**/*.css.ts"],
       env: {
         es2023: true,
         browser: true,
@@ -18,7 +19,7 @@ export default defineConfig({
       rules: { ...solid.rules },
     },
     {
-      files: ["*", "build/**"],
+      files: ["*", "build/**", "src/**/*.css.ts"],
       env: {
         es2025: true,
         node: true,

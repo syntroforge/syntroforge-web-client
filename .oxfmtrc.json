@@ -3,6 +3,7 @@
   "jsdoc": { "descriptionWithDot": true },
   "sortImports": {
     "groups": [
+      ["style", "side_effect_style"],
       "type-import",
       ["value-builtin", "value-external"],
       "type-internal",

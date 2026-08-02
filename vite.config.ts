@@ -1,3 +1,4 @@
+import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin";
 import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
 import compressPlugin from "./build/rolldown-plugin-compress.ts";
@@ -9,6 +10,6 @@ export default defineConfig({
     reportCompressedSize: false,
   },
   clearScreen: false,
-  plugins: [solidPlugin(), minifyIndexHtmlPlugin(), compressPlugin()],
+  plugins: [solidPlugin(), vanillaExtractPlugin(), minifyIndexHtmlPlugin(), compressPlugin()],
   resolve: { tsconfigPaths: true },
 });

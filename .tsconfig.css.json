@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./.tsconfig.build.json",
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "tsBuildInfoFile": "node_modules/.tsbuildinfo.css.json"
+  },
+  "include": ["src/**/*.css.ts"],
+  "exclude": []
+}

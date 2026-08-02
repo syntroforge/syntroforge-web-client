@@ -1,3 +1,4 @@
+import "./sanitize.css";
 import type { VoidComponent } from "solid-js";
 import { Route, Router, useNavigate } from "@solidjs/router";
 import Layout from "./layout";

@@ -1,3 +1,5 @@
+allowBuilds:
+  esbuild: false
 minimumReleaseAge: 5760
 minimumReleaseAgeIgnoreMissingTime: false
 update:

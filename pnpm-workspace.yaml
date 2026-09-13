@@ -4,6 +4,8 @@ minimumReleaseAge: 5760
 minimumReleaseAgeIgnoreMissingTime: false
 update:
   githubActions: true
+  ignoreDeps:
+    - "@types/node"
 trustPolicy: no-downgrade
 trustPolicyExclude:
   - "semver@6.3.1"
